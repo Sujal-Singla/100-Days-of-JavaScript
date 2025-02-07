@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #0a0e0f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  /* border: 1px solid white; */
+  padding: 1rem;
+  border-radius: 10px;
+  background: #101618;
+  box-shadow: 0px 6px 20px 4px black;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 30rem;
+  text-align: center;
+}
+h1 {
+  padding: 1rem;
+  text-shadow: 0px 2px 15px white;
+}
+.move {
+  color: grey;
+  font-size: 18px;
+}
+.choice button {
+  margin-right: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background: linear-gradient(to right, #1c272b 20%, #0e1518);
+  color: white;
+  box-shadow: 0px 6px 10px black;
+  transition: all 0.3s ease;
+}
+
+.choice button:hover {
+  scale: 1.2;
+  background: white;
+  color: black;
+  box-shadow: 0px 0px 10px white;
+}
+.choice button:active {
+  scale: 1;
+  background: orangered;
+  color: white;
+  box-shadow: 0px 0px 10px orange;
+}
+.input {
+  margin-top: 1rem;
+}
+.input p {
+  font-size: 18px;
+  padding: 0.2rem;
+}
+.winner h2 {
+  color: rgb(0, 255, 0);
+  text-shadow: 0px 0px 10px;
+}
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1c272b;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.493);
+}
