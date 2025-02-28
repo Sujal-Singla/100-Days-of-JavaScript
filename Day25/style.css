@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: rgb(18, 18, 18);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+}
+.container {
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  background-color: rgb(30, 30, 30);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 20px;
+  padding: 20px;
+  border-radius: 12px;
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: rgb(255, 204, 0);
+}
+input[type="datetime-local"] {
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 8px;
+  outline: none;
+}
+.start {
+  font-size: 16px;
+  background-color: rgb(255, 204, 0);
+  color: rgb(18, 18, 18);
+  cursor: pointer;
+  padding: 10px 20px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+.time {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.value {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(255, 204, 0);
+}
+.text {
+  font-size: 19px;
+}
