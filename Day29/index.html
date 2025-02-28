@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Draggable Elements - Day29</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Task Board</h1>
+      <div class="board">
+        <div class="todo" id="column">
+          <h2>To Do</h2>
+          <div class="item" draggable="true">Task1</div>
+          <div class="item" draggable="true">Task2</div>
+        </div>
+        <div class="inprogress" id="column">
+          <h2>In Progress</h2>
+          <div class="item" draggable="true">Task3</div>
+        </div>
+        <div class="done" id="column">
+          <h2>Done</h2>
+          <div class="item" draggable="true">Task 4</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
